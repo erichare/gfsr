@@ -1,0 +1,18 @@
+Package: gfsr
+Type: Package
+Title: Analysis of GFS weather forecasts
+Version: 0.1.0
+Date: 2013-10-22
+Author: Eric Hare
+Maintainer: Eric Hare <erichare@iastate.edu>
+Description: Functions for obtaining and evaluating the forecasts produced
+    by the GFS (Global Forecasting System).
+License: GPL-3
+Depends:
+    RCurl,
+    lubridate
+Suggests:
+    ggplot2
+Collate:
+    'gfs.r'
+    'gfsplot.r'
